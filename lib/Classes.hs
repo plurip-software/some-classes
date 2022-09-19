@@ -1,4 +1,4 @@
-module Main (main) where
+module Main (Parser, StringParser, Property) where
 
 -- | ## Properties
 -- 
