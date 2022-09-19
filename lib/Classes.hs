@@ -16,5 +16,5 @@ class Property a b where
     success :: a -> b -> Either a b
     failure :: a -> b -> Either a b
     first   :: a -> b -> a            --^ The choice between two options is the main property of the boolean type 
-                                      --^ the first x y and the True constructor 
-    second  :: a -> b -> b            --^ 
+                                      --^ the first x y can be interpreted as True... 
+    second  :: a -> b -> b            --^ ...and the second as False 
