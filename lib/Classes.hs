@@ -1,6 +1,6 @@
 {-# LANGUAGE MultiParamTypeClasses #-}
 
-module Classes (Parser, Property) where
+module Classes where
 
 -- | ## Properties
 -- 
